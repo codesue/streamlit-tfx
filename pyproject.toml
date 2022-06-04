@@ -1,0 +1,31 @@
+[tool.poetry]
+name = "streamlit-tfx"
+version = "22.6.4-dev"
+description = "TensorFlow Extended visualizers for Streamlit apps"
+authors = ["Suzen Fylke <codesue@users.noreply.github.com>"]
+
+repository = "https://github.com/codesue/streamlit-tfx"
+
+readme = "README.md"
+
+keywords = ["streamlit", "tfx", "visualization"]
+
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Intended Audience :: Developers",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Topic :: Scientific/Engineering :: Visualization",
+]
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.10"
+streamlit = "^1.9.2"
+tfx = "^1.8.0"
+ipywidgets = "^7.7.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
