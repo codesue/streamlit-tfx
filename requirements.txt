@@ -1,2 +1,8 @@
 ipywidgets
-tfx<=2.0.0
+ml-metadata==1.11.0
+tensorflow==2.10.0
+tensorflow-data-validation==1.11.0
+tensorflow-model-analysis==0.42.0
+tensorflow-transform==1.11.0
+tfx-bsl==1.11.0
+tfx==1.11.0
