@@ -1,3 +1,2 @@
-streamlit
-tfx
 ipywidgets
+tfx<=2.0.0  --use-deprecated=legacy-resolver
