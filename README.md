@@ -1,3 +1,14 @@
+---
+title: 'streamlit-tfx'
+emoji: 🌱
+colorFrom: yellow
+colorTo: blue
+sdk: streamlit
+sdk_version: 1.15.2
+app_file: app.py
+pinned: false
+---
+
 # streamlit-tfx: TensorFlow Extended visualizers for Streamlit apps
 
 `streamlit-tfx` provides utilities for visualizing [TensorFlow Extended](https://www.tensorflow.org/tfx)
@@ -11,7 +22,9 @@ artifacts in [Streamlit](https://streamlit.io) apps.
 ## Installation
 
 ``` shell
-pip install streamlit-tfx
+git clone https://github.com/codesue/streamlit-tfx.git
+cd streamlit-tfx
+poetry install
 ```
 
 ## Getting started

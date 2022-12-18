@@ -36,11 +36,7 @@ st.info('''🌱 Just sprouting! This project is in the very beginning stages of
 development.''')
 
 st.header('Installation')
-st.code('''
-git clone https://github.com/codesue/streamlit-tfx.git
-cd streamlit-tfx
-poetry install
-''', language='shell')
+st.code('pip install streamlit-tfx', language='shell')
 
 st.header('Getting Started')
 st.code('''
