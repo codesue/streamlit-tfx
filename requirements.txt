@@ -1,2 +1,2 @@
 ipywidgets
-tfx<=2.0.0  --use-deprecated=legacy-resolver
+tfx<=2.0.0
